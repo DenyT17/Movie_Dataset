@@ -16,7 +16,7 @@ In next step I will try to prediction of recommended movies based on user prefer
 
 ## Dataset📁
 
-Dataset which I use in this problem you can find below [link](https://www.kaggle.com/datasets/bharatnatrayn/movies-dataset-for-feature-extracion-prediction?select=movies.csv)
+Dataset which I use in this problem you can find below [link](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
 
 ## Project implementation description 🔍
