@@ -16,4 +16,5 @@ data["budget"].fillna(value=data["budget"].mean(),inplace=True)
 data["rating"].fillna(value="Unknown",inplace=True)
 data = data.dropna(subset=["genre","writer","country","star","country","company"])
 
+
 # Data Visualisation
