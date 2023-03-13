@@ -1,7 +1,6 @@
 import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
+
+from functions import top_plot
 
 pd.set_option('display.max_columns', None)
 data = pd.read_csv("movies.csv")
@@ -16,5 +15,7 @@ data["budget"].fillna(value=data["budget"].mean(),inplace=True)
 data["rating"].fillna(value="Unknown",inplace=True)
 data = data.dropna(subset=["genre","writer","country","star","country","company"])
 
-
 # Data Visualisation
+top_plot(data,"budget",10)
+top_plot(data,"score",5)
+top_plot(data,"gross",3)
